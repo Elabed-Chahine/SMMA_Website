@@ -1,57 +1,61 @@
-import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
+import React, { useEffect, useState } from 'react';
+import  {NavBar}  from "./components/NavBar";
 import './App.css';
+import Footer from './components/Footer';
+import {CircleLoader} from 'react-spinners'
+import { PopupWidget } from "react-calendly";
+import HomeScreen from './Screens/HomeScreen';
+import logo from "./assets/img/logo1.png";
 
+
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import PageNotFound from './components/PageNotFound';
+import Leadership from './Screens/Signup/Leadership';
 function App() {
+  const [pageLoaded,setPageLoaded] = useState(false)
+
+  useEffect(() =>{
+
+    setTimeout(() =>setPageLoaded(true),1000)
+  },[pageLoaded]);
+
+
+
+  if(pageLoaded==false) {
+    return (
+      <div className='landing'>
+        <CircleLoader
+          color='white'
+          size={80}
+          speedMultiplier={1}
+        />
+        <img src={logo} alt='Logo' className='logo' />
+      </div>
+    );
+  }else
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Counter />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <span>
-          <span>Learn </span>
-          <a
-            className="App-link"
-            href="https://reactjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux-toolkit.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux Toolkit
-          </a>
-          ,<span> and </span>
-          <a
-            className="App-link"
-            href="https://react-redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React Redux
-          </a>
-        </span>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className='App'>
+        <PopupWidget
+          url='https://calendly.com/astral-media21/book-a-15-minute-meeting'
+          /*
+           * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
+           * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
+           */
+          rootElement={document.getElementById("root")}
+          text='Click here to schedule!'
+          textColor='#ffffff'
+          color='#00a2ff'
+        />
+        <NavBar />
+        <Routes>
+          <Route path='/' element={<HomeScreen />} />
+          <Route path='/signup' element={<Leadership />} />
+          <Route path='*' element={<PageNotFound />} />
+        </Routes>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 
