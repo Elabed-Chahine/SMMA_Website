@@ -3,7 +3,6 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.svg";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import Card from "react-bootstrap/Card";
 import Client1 from "../assets/img/Client1.jpg";
 import Client3 from "../assets/img/Client3.jpg";
 import Client4 from "../assets/img/Client4.jpg";
@@ -61,12 +60,12 @@ const responsive = {
                     }}
                     alt='Client photo'
                   />
-                  <h5>Daniel Lopez| KW Realtor</h5>
+                  <h5>Daniel Lopez| E-com| sportswear</h5>
                   <p>
                     I was skepticle at first But Chahine reassured me. He was
                     very professional, so organized and kept me updated every
                     part of the way. the results were incredible, but you have
-                    to be patient at first. <br />
+                    to be patient. <br />
                     <div>
                       <svg
                         xmlns='http://www.w3.org/2000/svg'
@@ -127,13 +126,11 @@ const responsive = {
                     }}
                     alt='Client photo'
                   />
-                  <h5>Jason Kauffman| Luxury Homes</h5>
+                  <h5>Jason Kauffman| E-com| aurora Skincare</h5>
                   <p>
-                    I was only relying on referrals for my client acquisition at
-                    first and everything was okey, but when I decided to move
-                    forward with Digital Navigator X my mind was blown with how
-                    much leads we could get a month. Chahine really shifted my
-                    vision I highly recommend. <br />
+                    Shaheen is a great communicator and they were constantly
+                    directing us towards making changes which we were hesitant
+                    at first but turned out to be so much more effective. <br />
                     <div>
                       <svg
                         xmlns='http://www.w3.org/2000/svg'
@@ -194,7 +191,7 @@ const responsive = {
                     }}
                     alt='Client photo'
                   />
-                  <h5>Brandon mendes| expRealty</h5>
+                  <h5>Brandon mendes| E-com| basking Skin </h5>
                   <p>
                     I Am very satisfied with their work, I highly recommend
                     working with them. you will appreciate how professional they
@@ -259,11 +256,10 @@ const responsive = {
                     }}
                     alt='Client photo'
                   />
-                  <h5>Lauren Peterson| KW england</h5>
+                  <h5>Lauren Peterson| E-com| skin haven</h5>
                   <p>
                     I recommend working with them so much, I stopped wasting my
-                    money and time on bad leads that barely got me any listings.{" "}
-                    <br />
+                    money on ads with no particular strategy. <br />
                     <div>
                       <svg
                         xmlns='http://www.w3.org/2000/svg'

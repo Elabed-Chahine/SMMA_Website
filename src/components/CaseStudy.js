@@ -1,14 +1,9 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import meter1 from "../assets/img/thumbnail.png";
-import meter3 from "../assets/img/meter3.png";
-import meter4 from "../assets/img/meter4.png";
-import meter5 from "../assets/img/InstagramM.png";
 import colorSharp from "../assets/img/color-sharp.png";
-import MY_VIDEO from "../assets/img/Case_study.mp4"
-import ReactPlayer from "react-player";
+import MY_VIDEO from "../assets/img/Digital Surges, September Case Study.mp4";
 export const CaseStudy = () => {
 
 
@@ -21,8 +16,7 @@ export const CaseStudy = () => {
             <div className='skill-bx'>
               <h1>Case study</h1>
               <p>
-                This small tweak in our system dramatically improved the results
-                we get our clients with a minimum of 700% a month. <br />
+                This is a case study so you can get to know more about our processes. <br />
               </p>
 
               <div>

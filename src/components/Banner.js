@@ -47,13 +47,13 @@ const [isOpen, setIsOpen]=useState(false)
         <Container>
           <Row className='align-items-center'>
             <Col xs={12} md={6} cl={7}>
-              <span className='tagline'>Welcome to AstralMedia </span>
+              <span className='tagline'>Welcome to Digital Surges </span>
               <h1>
                 <span className='wrap'>{text} </span> <br />
                 {` Services `}{" "}
               </h1>
               <p className='animate__animated animate__bounceIn'>
-                We work with real estat agents. What you can expect from us is getting you high quality listings and home Buyers. We systemise the process for every month so we get at least a minimum of 3 to 6 new Listings or 10 new buyers. Our educated pipeline is very effective, through a lot of trial and error we came up with the most optimized strategy, this will definitely change your business forever.
+                We specialize in working with E-com businesses, our main field of experteze are skincare, cosmetics and clothing businesses. We are not your typical Ads managers nor are we some employees, we will be your partners, advisors and your Insightful confidant. we 
               </p>
               <Button onClick={() => setIsOpen(true)}>
                 let's connect <ArrowRightCircle size={25} />

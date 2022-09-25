@@ -14,10 +14,9 @@ function Footer() {
           <Col sm={4}>
             <img src={logo} alt='Logo' />
             <p>
-              Digital Navigator X was founded in 2022 by Chahine Elabed, a
+              Digital Surges was founded in 2022 by Chahine Elabed, a
               software engineer with a lot of ambitions whose goal is to help
-              Real Estate firms scale their businesses and dramatically expand
-              their networks
+              E-commerce businesses grow through so many different strategies
             </p>
           </Col>
           <Col sm={5}></Col>
