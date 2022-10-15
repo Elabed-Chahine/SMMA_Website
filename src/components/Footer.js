@@ -16,7 +16,7 @@ function Footer() {
             <p>
               Digital Surges was founded in 2022 by Chahine Elabed, a
               software engineer with a lot of ambitions whose goal is to help
-              E-commerce businesses grow through so many different strategies
+              Realtors close more deals through so many different strategies
             </p>
           </Col>
           <Col sm={5}></Col>
@@ -32,7 +32,7 @@ function Footer() {
                 <img src={navIcon2} alt='' />
               </a>
             </div>
-            <p>CopyRight 2022. All rights reserved by AstralMedia</p>
+            <p>CopyRight 2022. All rights reserved by Digital Surges</p>
           </Col>
         </Row>
       </Container>

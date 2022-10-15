@@ -25,16 +25,16 @@ export default function AgencySpecializations() {
     const jobs = [
       { 
         id:1,
-        title: "facebook ADS",
+        title: "Facebook ads",
         description:
           "Our team of Facebook Ads experts will take care of optimizing your ads and bringing you Leads",
         imgUrl: Img1,
       },
       {
         id:5,
-        title: "Google ad words",
+        title: "TikTok ads",
         description:
-          "we will run google ad words for you so you can pop up in the firt",
+          "We will run TikTok ads for you if we think this would benefit your business much more than Facebook ads",
         imgUrl: Img2,
       },
     ];

@@ -60,7 +60,7 @@ const responsive = {
                     }}
                     alt='Client photo'
                   />
-                  <h5>Daniel Lopez| E-com| sportswear</h5>
+                  <h5>Daniel Lopez| Realtor | expRealty</h5>
                   <p>
                     I was skepticle at first But Chahine reassured me. He was
                     very professional, so organized and kept me updated every
@@ -126,11 +126,11 @@ const responsive = {
                     }}
                     alt='Client photo'
                   />
-                  <h5>Jason Kauffman| E-com| aurora Skincare</h5>
+                  <h5>Jason Kauffman | Exp-realty</h5>
                   <p>
-                    Shaheen is a great communicator and they were constantly
-                    directing us towards making changes which we were hesitant
-                    at first but turned out to be so much more effective. <br />
+                    "Even before starting to work together, the value they
+                    offered me was so much better than people I used to pay
+                    monthly <br />
                     <div>
                       <svg
                         xmlns='http://www.w3.org/2000/svg'
@@ -191,11 +191,11 @@ const responsive = {
                     }}
                     alt='Client photo'
                   />
-                  <h5>Brandon mendes| E-com| basking Skin </h5>
+                  <h5>Brandon mendes| Realtor| KW </h5>
                   <p>
-                    I Am very satisfied with their work, I highly recommend
-                    working with them. you will appreciate how professional they
-                    are and how effective their strategies are. <br />
+                    Shaheen is a great communicator and they were constantly
+                    directing us towards making changes which we were hesitant
+                    at first but turned out to be so much more effective. <br />
                     <div>
                       <svg
                         xmlns='http://www.w3.org/2000/svg'
@@ -256,7 +256,7 @@ const responsive = {
                     }}
                     alt='Client photo'
                   />
-                  <h5>Lauren Peterson| E-com| skin haven</h5>
+                  <h5>Lauren Peterson| Realtor| europe</h5>
                   <p>
                     I recommend working with them so much, I stopped wasting my
                     money on ads with no particular strategy. <br />

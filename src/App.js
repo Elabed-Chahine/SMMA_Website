@@ -50,7 +50,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route path='/' element={<HomeScreen />} />
-          <Route path='/signup' element={<Leadership />} />
+          <Route path='/leadership' element={<Leadership />} />
           <Route path='*' element={<PageNotFound />} />
         </Routes>
         <Footer />

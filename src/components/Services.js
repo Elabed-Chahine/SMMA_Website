@@ -39,8 +39,7 @@ export  const Services = () => {
             <div className='skill-bx'>
               <h1>Our Services</h1>
               <p>
-                In Digital Navigator X we will help you grow your real estate
-                firm by offering: <br />
+                In Digital Surges we will dramatically grow your business offering these services: <br />
               </p>
               <Carousel
                 responsive={responsive}
@@ -55,7 +54,7 @@ export  const Services = () => {
                 </div>
                 <div className='item'>
                   <img src={meter1} alt='' />
-                  <h2> Web develoment</h2>
+                  <h2> Web development</h2>
                 </div>
 
                 <div className='item'>

@@ -4,12 +4,9 @@ import logo from '../assets/img/logo.png';
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from '../assets/img/nav-icon2.png';
 import navIcon3 from '../assets/img/nav-icon33.svg';
-import { HashLink } from 'react-router-hash-link';
 import { PopupModal } from "react-calendly";
 
-import {
-  BrowserRouter as Router
-} from "react-router-dom";
+
 import { Link } from "react-router-dom";
 
 export const NavBar = () => {
@@ -61,10 +58,12 @@ export const NavBar = () => {
             </Nav.Link>{" "}
             <Nav.Link
               className={
-                activeLink === "signup" ? "active navbar-link" : "navbar-link"
+                activeLink === "leadership"
+                  ? "active navbar-link"
+                  : "navbar-link"
               }
-              onClick={() => onUpdateActiveLink("signup")}>
-              <Link className='route' to='/signup'>
+              onClick={() => onUpdateActiveLink("leadership")}>
+              <Link className='route' to='/leadership'>
                 Leadership
               </Link>
             </Nav.Link>

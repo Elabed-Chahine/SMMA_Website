@@ -53,7 +53,7 @@ const [isOpen, setIsOpen]=useState(false)
                 {` Services `}{" "}
               </h1>
               <p className='animate__animated animate__bounceIn'>
-                We specialize in working with E-com businesses, our main field of experteze are skincare, cosmetics and clothing businesses. We are not your typical Ads managers nor are we some employees, we will be your partners, advisors and your Insightful confidant. we 
+                We specialize in working with Real estate firms in order to build a better, more sustainable marketing foundation. From there on we build a firm pipeline that leads to client aquisition. We do not specialize in running ads as our only service, we consult and fix every inefficiency from website flaws to design and copywrighting, as well as keeping up with new trends and leveraging them.
               </p>
               <Button onClick={() => setIsOpen(true)}>
                 let's connect <ArrowRightCircle size={25} />
