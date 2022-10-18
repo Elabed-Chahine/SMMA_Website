@@ -8,6 +8,7 @@ import colorSharp2 from '../assets/img/color-sharp2.png';
 
 import Img1 from "../assets/img/skyRocket.png";
 import Img2 from "../assets/img/meter4.png";
+import Img3 from "../assets/img/google.png";
 
 import proj1 from "../assets/img/project-img1.png";
 import proj2 from "../assets/img/project-img2.png";
@@ -23,19 +24,26 @@ import manage3 from "../assets/img/TiktokM.jpg";
 export default function AgencySpecializations() {
       const [key, setKey] = useState("1");
     const jobs = [
-      { 
-        id:1,
+      {
+        id: 1,
         title: "Facebook ads",
         description:
           "Our team of Facebook Ads experts will take care of optimizing your ads and bringing you Leads",
         imgUrl: Img1,
       },
       {
-        id:5,
+        id: 2,
         title: "TikTok ads",
         description:
           "We will run TikTok ads for you if we think this would benefit your business much more than Facebook ads",
         imgUrl: Img2,
+      },
+      {
+        id: 3,
+        title: "Google ads",
+        description:
+          "We will run Google Ad words for you if we think this would skyrocket your business much more and we'll optimize the buget and choose smart ways to get you closer to your goals",
+        imgUrl: Img3,
       },
     ];
 

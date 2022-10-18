@@ -16,16 +16,18 @@ export const CaseStudy = () => {
             <div className='skill-bx'>
               <h1>Case study</h1>
               <p>
-                This is a case study so you can get to know more about our processes. <br />
+                This is a case study so you can get to know more about our
+                processes. <br />
               </p>
 
-              <div>
-                <video width='750' height='440' controls poster={meter1}>
+           
+
+               <div>
+                <video className="vid" controls poster={meter1}>
                   <source src={MY_VIDEO} type='video/mp4' />
-                 
                   Your browser does not support the video tag.
                 </video>
-              </div>
+              </div> 
             </div>
           </Col>
         </Row>

@@ -49,9 +49,9 @@ export default function Leadership() {
             </div>
           </Col>
 
-          <Col md={8} className=' process'>
+          <Col md={8} sm={4} className=' process'>
             <div>
-              <img  src={marketing} className="vidlead" width='800' height='460' />
+              <img  src={marketing} className="vidlead" />
                 
             </div>
           </Col>
