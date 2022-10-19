@@ -315,7 +315,7 @@ const responsive = {
                 <span>Book a call</span>
               </Button>
               <PopupModal
-                url='https://calendly.com/astral-media21/book-a-15-minute-meeting'
+                url='https://calendly.com/digital-surges/30min'
                 onModalClose={() => setIsOpen(false)}
                 open={isOpen}
                 /*

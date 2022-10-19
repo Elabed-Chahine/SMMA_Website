@@ -53,14 +53,20 @@ const [isOpen, setIsOpen]=useState(false)
                 {` Services `}{" "}
               </h1>
               <p className='animate__animated animate__bounceIn'>
-                We specialize in working with Real estate firms in order to build a better, more sustainable marketing foundation. From there on we build a firm pipeline that leads to client aquisition. We do not specialize in running ads as our only service, we consult and fix every inefficiency from website flaws to design and copywrighting, as well as keeping up with new trends and leveraging them.
+                We specialize in working with Real estate firms in order to
+                build a better, more sustainable marketing foundation. From
+                there on we build a firm pipeline that leads to client
+                aquisition. We do not specialize in running ads as our only
+                service, we consult and fix every inefficiency from website
+                flaws to design and copywrighting, as well as keeping up with
+                new trends and leveraging them.
               </p>
               <Button onClick={() => setIsOpen(true)}>
                 let's connect <ArrowRightCircle size={25} />
               </Button>
 
               <PopupModal
-                url='https://calendly.com/astral-media21/book-a-15-minute-meeting'
+                url='https://calendly.com/digital-surges/30min'
                 onModalClose={() => setIsOpen(false)}
                 open={isOpen}
                 /*

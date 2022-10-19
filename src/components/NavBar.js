@@ -85,7 +85,7 @@ export const NavBar = () => {
               <span>Book a call</span>
             </button>
             <PopupModal
-              url='https://calendly.com/astral-media21/book-a-15-minute-meeting'
+              url='https://calendly.com/digital-surges/30min'
               onModalClose={() => setIsOpen(false)}
               open={isOpen}
               /*

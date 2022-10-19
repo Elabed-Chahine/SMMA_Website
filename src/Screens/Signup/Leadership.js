@@ -37,7 +37,7 @@ export default function Leadership() {
                 <span>Book a call</span>
               </Button>
               <PopupModal
-                url='https://calendly.com/astral-media21/book-a-15-minute-meeting'
+                url='https://calendly.com/digital-surges/30min'
                 onModalClose={() => setIsOpen(false)}
                 open={isOpen}
                 /*
@@ -51,8 +51,7 @@ export default function Leadership() {
 
           <Col md={8} sm={4} className=' process'>
             <div>
-              <img  src={marketing} className="vidlead" />
-                
+              <img src={marketing} className='vidlead' />
             </div>
           </Col>
         </Row>
