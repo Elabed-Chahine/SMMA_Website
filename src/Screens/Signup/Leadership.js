@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
-import contactImg from "../../assets/img/CEO.jpg";
+import contactImg from "../../assets/img/ceo.png";
 import { PopupModal } from "react-calendly";
 import MY_VIDEO from "../../assets/img/Who Are we_ .mp4";
 import meter1 from "../../assets/img/thumbnail1.png";
@@ -17,27 +17,18 @@ export default function Leadership() {
           <Col md={4} className='signup'>
             <img src={contactImg} alt='contact Us' /> <br />
             <div className='bio'>
-              <p> CEO | Founder | Software engineer</p> <br />
+              <p> CEO | Founder | entroprenuer</p> <br />
             </div>
             <div className='paragraph'>
               <p>
-                I am the Founder of Digital Surges, I spent 5 years studying
-                software engineering. I know how marketing works. algorithms? I
-                develop them. We know what goes viral and what doesn't. we give
-                you results, not half assed ads, My team handles every step of
-                the way through an educated pipeline that is designed
-                specifically for your own personal business. The point you reach
-                in 3 months is nothing like the point you're in right now. If
-                this sounds like something you're interested in, book a call now
-                and we'll share with you some Ideas and strategies you can start
-                implementing right away.{" "}
+                Allow me to introduce myself, I am Johnny Hatz, an aspiring entrepreneur with a burning desire to become an exceptional business owner. Over the years, I have accumulated a wealth of experience that has shaped my approach to the business world. My ultimate goal is to create ventures that bring substantial value to my customers, leaving a positive impact on their lives. Drawing from my strong business acumen and a keen sense of market trends, I aim to lead enterprises that not only achieve success but also prioritize authentic connections and top-notch products and services. I firmly believe that by providing exceptional value, I can build long-lasting relationships with my customers and make a meaningful difference in the market. With dedication and determination, I am committed to becoming a trailblazer in the business landscape, leaving behind a legacy that showcases my passion for entrepreneurship and the pursuit of excellence.{" "}
               </p>
 
               <Button className='vvd' onClick={() => setIsOpen(true)}>
                 <span>Book a call</span>
               </Button>
               <PopupModal
-                url='https://calendly.com/digital-surges/30min'
+                url='https://calendly.com/digital_surges/30min'
                 onModalClose={() => setIsOpen(false)}
                 open={isOpen}
                 /*

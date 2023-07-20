@@ -66,7 +66,7 @@ const [isOpen, setIsOpen]=useState(false)
               </Button>
 
               <PopupModal
-                url='https://calendly.com/digital-surges/30min'
+                url='https://calendly.com/digital_surges/30min'
                 onModalClose={() => setIsOpen(false)}
                 open={isOpen}
                 /*

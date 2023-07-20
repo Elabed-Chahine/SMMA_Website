@@ -1,9 +1,9 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "react-multi-carousel/lib/styles.css";
-import meter1 from "../assets/img/thumbnail.png";
+import meter1 from "../assets/img/Marketing.jpg";
 import colorSharp from "../assets/img/color-sharp.png";
-import MY_VIDEO from "../assets/img/Digital Surges, September Case Study.mp4";
+import MY_VIDEO from "../assets/img/Case_study.mp4";
 export const CaseStudy = () => {
 
 
